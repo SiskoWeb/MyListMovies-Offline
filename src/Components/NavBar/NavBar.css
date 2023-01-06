@@ -1,0 +1,32 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(1, 95, 167);
+    height: 50px;
+    /* background-image: url(https://cdn-gce.allmovie.com/images/gradients/header_gradient.png); */
+}
+.NavBar h2{
+    color: white;
+    
+}
+.Links{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    
+}
+.Links a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.addbtn{
+    background-color: green;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all .2s linear;
+}
+.addbtn:hover{
+ background-color: rgb(6, 104, 6);
+}

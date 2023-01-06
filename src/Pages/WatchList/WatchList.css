@@ -1,0 +1,16 @@
+.Movies-Added{
+    display: flex;
+    flex-wrap: wrap;
+
+justify-content: center;
+   gap: 20px;
+   padding: 80px;
+}
+.title-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

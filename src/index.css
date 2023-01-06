@@ -1,0 +1,17 @@
+:root {
+
+}
+*{
+  box-sizing: border-box;
+padding: 0;
+margin: 0;
+list-style: none;
+text-decoration: none;
+}
+.no-movies{
+
+  color: black;
+  opacity: .5;
+  font-size: 30px;
+  text-align: center;
+}
