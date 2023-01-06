@@ -20,7 +20,7 @@ function  AddNewMovie() {
   useEffect(()=>{
 
 
-    axios.get(`http://www.omdbapi.com/?s=${searchValue}&apikey=2ad7014a`).then(resp=>setItems(resp.data.Search)).catch((error)=>console.log(error.message))
+    axios.get(`https://www.omdbapi.com/?s=${searchValue}&apikey=2ad7014a`).then(resp=>setItems(resp.data.Search)).catch((error)=>console.log(error.message))
 console.log(watchList)
   },[searchValue])
 
